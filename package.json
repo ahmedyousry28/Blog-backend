@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "json-server": "^0.17.3",
+    "json-server-auth": "^2.1.0"
+  },
+  "scripts": {
+    "start": "json-server db.json -m json-server-auth --host 0.0.0.0 --port $PORT"
+  }
+}
